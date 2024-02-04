@@ -1,0 +1,35 @@
+/*global variables*/
+:root {
+ --c_theme: #4240C9;
+ --c_themeDark: #160637 ;
+ --c_iconGray: #9F9F9F;
+ --c_white: #FFF;
+ --c_black: #000;
+
+}
+
+body {
+    background-color: var(--c_white);
+}
+
+main {
+    height:100vh;
+}
+
+.top-menu-bar {
+    background-color: var(--c_theme);
+    height: 67px;
+}
+
+.foot-menu {
+    background-color: var(--c_theme);
+    height: 128px;
+}
+
+.debug-outline {
+    border: 1px solid red;
+}
+
+.message {
+    height: 96px;
+}

@@ -1,0 +1,15 @@
+2/3/24 8:45 AM
+	- I've decided that I've learned enough about Bootstrap to begin work on my project. Of course, there will still be plenty of learning along the way.
+	- Going over the project requirements and taking note of what order I should work in, what tools I will use, etc.
+	- Looking at Microsoft Outlook, Gmail, and iPhone email apps to gather visual information about good Email app layouts.
+
+2/3/24 8:00 PM - 11:00 PM
+	- Very productive night! Watched the Figma tutorial video and got a LOT of hands on experience creating the mobile size mockup for my email project.
+	- Mobile design looks really great! Now I just need to adapt it to tablet and desktop sizes and I'm ready to begin coding.
+	
+2/4/24 12:17 AM
+	- Stayed up late on a Saturday finishing my Figma prototypes for desktop and tablet. One thing I've learned is that designing for a small screen first makes
+		it wayyyy easier to scale up than vice versa. I'm happy with the look and will get started on the code tomorrow.
+
+2/4/24 8:43 AM
+	
