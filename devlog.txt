@@ -12,4 +12,4 @@
 		it wayyyy easier to scale up than vice versa. I'm happy with the look and will get started on the code tomorrow.
 
 2/4/24 8:43 AM
-	
+	- Getting the basic mobile layout working. The approximate locations of everything are good, but I'm still having trouble with the intracacies and tweaks behind bootsrap.	
