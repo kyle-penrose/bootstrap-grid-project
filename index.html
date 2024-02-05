@@ -26,60 +26,61 @@
 
     <body>
         <header>
-            <!-- place navbar here -->
+            <!-- top menu bar -->
+            <div class="container-fluid top-menu-bar">
+                <div class="row mb-3"></div>
+                <div class="row px-0">
+                    <div class="col-1 debug-outline">1</div>
+                    <div class="col-2 debug-outline">2</div>
+                    <div class="col-6 debug-outline"> </div>
+                    <div class="col-1 debug-outline">4</div>
+                    <div class="col-1 debug-outline">5</div>
+                    <div class="col-1 debug-outline">6</div>
+                </div>
+                <div class="row px-0">
+                    <div class="col-1 debug-outline"> </div>
+                    <div class="col-11 debug-outline">Friends/Other</div>
+                </div>
+            </div>
         </header>
         <main>
-            <!-- top menu bar -->
-            <div
-                class="row p-2 g-2 top-menu-bar"
-            >
-                <div class="col-1 debug-outline">Sidebar</div>
-                <div class="col-2 debug-outline">Inbox</div>
-                <div class="col-6 debug-outline"> </div>
-                <div class="col-1 debug-outline">Bell</div>
-                <div class="col-1 debug-outline">Search</div>
-                <div class="col-1 debug-outline">Profile</div>
-            </div>
-            <div
-                class="row pb-3 g-2 top-menu-bar"
-            >
-                <div class="col-1 debug-outline"> </div>
-                <div class="col debug-outline">Friends/Other</div>
-            </div>
-           
-            <!-- inbox main content window -->
-            <div
-                class="row g-2 inbox-content"
-            >
-                <!-- message -->
-                <div class="row p-4 message debug-outline-1">
-                    <div class="col-1 unread-dot debug-outline"></div>
-                    <div class="col-2 sender-profile debug-outline"></div>
-                    <div class="col-9 message-content debug-outline">
-                        <div class="row message-sender-name debug-outline">Amazon.com</div>
-                        <div class="row message-subject debug-outline">Delivered: Your Amazon.com order...</div>
-                        <div class="row message-content-preview debug-outline">Hi Kyle, Your package has been delivered! H...</div>
-                    </div>
+
+        <div class="sidebar d-none d-sm-block">
+            <p>S</p>
+        </div>
+
+        <div class="container-fluid inbox">
+            <!-- inbox -->
+            <div class="row px-0">
+                <div class="col-lg-3 debug-outline message-thumb">Message-Thumb
                 </div>
-
-            <!-- compose button -->
-            <button class="floating-button btn btn-primary">
-                Compose
-            </button>
-
-
-            <!-- foot menu -->
-            <div 
-                class="row g-2 foot-menu"
-            >
-                <div class="col-4 debug-outline">Mail</div>
-                <div class="col-4 debug-outline">Planner</div>
-                <div class="col-4 debug-outline">Social</div>
             </div>
+            <div class="row px-0">
+                <div class="col debug-outline">Message</div>
+            </div>
+            <div class="row px-0">
+                <div class="col debug-outline">Message</div>
+            </div>
+            <div class="row px-0">
+                <div class="col debug-outline">Message</div>
+            </div>
+            <div class="row px-0">
+                <div class="col debug-outline">Message</div>
+            </div>
+            <div class="row px-0">
+                <div class="col debug-outline">Message</div>
+            </div>
+        </div>
             
         </main>
         <footer>
-            <!-- place footer here -->
+            <!-- top menu bar -->
+            <div class="container-fluid d-sm-none foot-menu">
+                <div class="row px-0">
+                    <div class="col-4 debug-outline">1</div>
+                    <div class="col-4 debug-outline">2</div>
+                    <div class="col-4 debug-outline">3</div>
+                </div>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
