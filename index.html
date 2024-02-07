@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>PurpleMail</title>
+        <title>LupinMail</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -27,9 +27,14 @@
     <body>
         <header>
             <!-- top menu bar -->
-            <div class="container-fluid top-menu-bar">
+            <div class="container-fluid gx-0 top-bar">
                 <div class="row mb-3"></div>
-                <div class="row px-0">
+
+                <div class="d-none d-sm-block sidebar debug-outline">
+                    <p>S</p>
+                </div>
+
+                <div class="row menu-bar">
                     <div class="col-1 debug-outline">1</div>
                     <div class="col-2 debug-outline">2</div>
                     <div class="col-6 debug-outline"> </div>
@@ -37,42 +42,25 @@
                     <div class="col-1 debug-outline">5</div>
                     <div class="col-1 debug-outline">6</div>
                 </div>
-                <div class="row px-0">
+                <div class="row tool-bar">
                     <div class="col-1 debug-outline"> </div>
                     <div class="col-11 debug-outline">Friends/Other</div>
                 </div>
             </div>
         </header>
         <main>
+        <div class="container-fluid d-flex gx-0 main-content">     
+            <div class="col-sm-3 mx-0 container-fluid inbox debug-outline">
+                <!-- inbox -->
+                Message
+            </div>
 
-        <div class="sidebar d-none d-sm-block">
-            <p>S</p>
-        </div>
-
-        <div class="container-fluid inbox">
-            <!-- inbox -->
-            <div class="row px-0">
-                <div class="col-lg-3 debug-outline message-thumb">Message-Thumb
-                </div>
+            <div class="col-sm-9 mx-0 container-fluid d-none d-sm-block message-contents debug-outline">
+                These are the message contents
             </div>
-            <div class="row px-0">
-                <div class="col debug-outline">Message</div>
-            </div>
-            <div class="row px-0">
-                <div class="col debug-outline">Message</div>
-            </div>
-            <div class="row px-0">
-                <div class="col debug-outline">Message</div>
-            </div>
-            <div class="row px-0">
-                <div class="col debug-outline">Message</div>
-            </div>
-            <div class="row px-0">
-                <div class="col debug-outline">Message</div>
-            </div>
-        </div>
-            
+        </div>    
         </main>
+
         <footer>
             <!-- top menu bar -->
             <div class="container-fluid d-sm-none foot-menu">

@@ -25,13 +25,9 @@ body {
     background-color: var(--c_white);
 }
 
-main {
-   
-}
-
 
 /* classes */
-.top-menu-bar {
+.top-bar {
     background-color: var(--c_theme);
 }
 
@@ -95,4 +91,13 @@ main {
 .inbox {
     padding-left: 64px;
 }
+
+.menu-bar {
+    padding-left: 64px;
+}
+
+.tool-bar {
+    padding-left: 64px;
+}
+
 }
